@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 1535px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(climb.jpg.jpg);
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: ;
+    
+}
+.icon{
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+.menu{
+    width: 600px;
+    height: 70px;
+    float: left;
+    margin-left: 150px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-top: 21px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: #151514;
+    font-family: Arial;
+    font-weight: bold;
+    transition: .1s ease-in-out;
+}
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    width: 230px;
+    float: left;
+    margin-left: 900px;
+    margin-top: -35px;
+}
+.src {
+    height: 35px;
+    width: 250px;
+    margin-top: -20px;
+    border: 2px solid #151514;
+    background: transparent;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    float: left;
+    color: rgb(60, 237, 25);
+}
+.btn {
+    margin-left: 1151px;
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+}
+.btn a:hover {
+    color: #ff7200;
+}
+.btnn {
+    height: 39px;
+    width: 100px;
+    margin-top: 16px;
+    border: 3px solid #ff7200;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ff7200;
+
+}
+.btn:focus {
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+.content {
+    margin: 30px;
+    height: auto;
+    width: 1200px;
+    position: relative;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.content .bn{
+    width: 100px;
+    height: 35px;
+    background: #ff7200;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: .3s ease;
+}
+.content .bn a {
+    color: #000;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.bn a:hover {
+    color: #fff;
+}
+.form {
+    width: 330px;
+    height: 400px;
+    background: linear-gradient(to top, rgb(0,0,0,0.8)20%, rgb(0,0,0,0.8)20%) ;
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.form h2 {
+    text-align: center;
+    color: #ff7200;
+    font-size: bold;
+    margin-top: 8px;
+    
+}
+
+.form input {
+    width: 240px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 30px;
+    border-top: none;
+    font-size: 17px;
+    border-left: none;
+} 
+.form input::focus {
+    outline: none;
+
+}
+::placeholder {
+}
+
+.form .btnn {
+    width: 240px;
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s ease;
+    font-size: 20px;
+}
+.btnn:hover {
+    background-color: #fff;
+}
+.btnn a {
+    text-decoration: none;
+    color: #000;
+}
+.form .link {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: #fff;
+    font-size: 15px;
+}
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+    margin: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+ 
